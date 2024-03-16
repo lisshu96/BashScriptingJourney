@@ -9,7 +9,7 @@ Problem 2: Looping and Skipping
 #!/bin/bash
 for (( i=1; i<100; i=i+2 )); do
 echo $i
-Done
+done
 
 Problem 3: Personalized Echo
 - Description: Write a Bash Script that accepts (Name) as the input and displays "Welcome (Name)" in the terminal.
