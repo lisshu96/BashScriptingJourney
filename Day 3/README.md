@@ -1,4 +1,4 @@
-Problem 7: Getting started with conditionals
+Problem 7: Getting Started with Conditionals
 - Description: Read in one character from STDIN. If the character is 'Y' or 'y' display "YES". If the character is 'N' or 'n' display "NO". No other character will be provided as input. 
 - Code:
 #!/bin/bash
