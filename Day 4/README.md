@@ -1,5 +1,5 @@
 Problem 10: Compute the Average
-- Description: Given N integers, compute their average, rounded to three decimal places. 
+- Description: Given N integers, compute their average, rounded to three decimal places. The first line contains an integer, N. Each of the following N lines contains a single integer. 
 - Code: 
 #!/bin/bash
 read n
