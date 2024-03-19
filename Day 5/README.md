@@ -16,3 +16,11 @@ Problem 12: Cut #2
 while read lines; do
     echo $lines | cut -c2,7
 done
+
+Problem 13: Cut #3
+- Description: Display a range of characters starting at the 2nd position of a string and ending at the 7th position (both positions included). 
+- Code: 
+#!/bin/bash
+while read lines; do
+    echo $lines | cut -c2-7
+done
