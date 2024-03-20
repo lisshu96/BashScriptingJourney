@@ -24,3 +24,19 @@ Problem 13: Cut #3
 while read lines; do
     echo $lines | cut -c2-7
 done
+
+Problem 14: Cut #4
+- Description: Display the first four characters from each line of text. The output should contain N lines. Each line should contain just the first four characters of the corresponding input line. 
+- Code: 
+#!/bin/bash
+while read lines; do
+    echo $lines | cut -c -4 
+Done
+
+Problem 15: Cut #5
+- Description: Given a tab delimited file with several columns (tsv format) print the first three fields. The output should contain N lines. For each line in the input, print the first three fields. 
+- Code: 
+#!/bin/bash
+while read lines; do
+    echo "$lines" | cut -f -3
+done
